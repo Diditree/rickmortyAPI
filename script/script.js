@@ -25,9 +25,10 @@ function displayCharacter(characters) {
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>${character.name}</p>
+              <p class="fw-bold">${character.name}</p>
               <p>${character.gender}</p>
-              <p>${character.species}</p>
+              <p>Espèce : ${character.species}</p>
+              <p>Origine : ${character.origin.name}</p>
               <p>${character.status}</p>
               <p>Apparait ${character.episode.length} fois
             </div>
